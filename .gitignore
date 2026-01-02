@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite
+.idea/
+.vscode/
+venv/
+env/
+.DS_Store
+onkel_max_inverter_control.py
