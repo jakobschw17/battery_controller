@@ -5,7 +5,7 @@ import logging
 from pymodbus.client.sync import ModbusTcpClient as InverterClient
 
 # --- Basic Configuration ---
-INVERTER_IP = "192.168.178.2"  # <<< EDIT THIS TO YOUR INVERTER'S IP ADDRESS
+INVERTER_IP = "192.168.1.X"  # <<< EDIT THIS TO YOUR INVERTER'S IP ADDRESS
 
 # --- Logging Setup for clean output ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
